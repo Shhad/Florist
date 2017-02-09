@@ -1,5 +1,3 @@
-package test_programAplikacja;
-
 public class Flower extends Object {
 	String name;
 	int number;

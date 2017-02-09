@@ -1,5 +1,3 @@
-package prog_lab2;
-
 import java.util.Date;
 import java.util.ArrayList;
 

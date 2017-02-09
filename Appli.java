@@ -1,5 +1,3 @@
-package prog_lab2;
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
@@ -29,7 +27,7 @@ public class Appli {
 		listaK = new ArrayList<Kwiatek>();
 		listaT = new ArrayList<Transakcja>();
 		Kwiatek roza = new Kwiatek();
-		roza.setNazwa("R�a");
+		roza.setNazwa("Ró¿a");
 		roza.setIlosc(100);
 		roza.setCena(8.00);
 		listaK.add(roza);
@@ -260,7 +258,7 @@ public class Appli {
 			lista.setCellRenderer(new ExampleListCellRenderer());
 			panel.add(ety1);
 			panel.add(przewi);
-			panel.add(new JLabel("Szczeg�y produktu:",JLabel.CENTER));
+			panel.add(new JLabel("Szczegó³y produktu:",JLabel.CENTER));
 			panel.add(area);
 			panel.add(ety4);
 			ety1.setAlignmentX(panel.CENTER_ALIGNMENT);

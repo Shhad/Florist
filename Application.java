@@ -1,5 +1,3 @@
-package test_programAplikacja;
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
@@ -225,7 +223,7 @@ public class Application {
 							System.out.println("Mamy: "+opcja.number);
 							System.out.println("Probujesz kupic: "+poleIl.getText());
 							JFrame blad = new JFrame("Error FRAME");
-							JLabel etyB = new JLabel("Nie mamy tyle kwiatków!");
+							JLabel etyB = new JLabel("Nie mamy tyle kwiatkÃ³w!");
 							etyB.setFont(new Font(etyB.getText(),Font.BOLD,40));
 							blad.getContentPane().add(BorderLayout.CENTER, etyB);
 							blad.setLocationRelativeTo(null);
@@ -272,7 +270,7 @@ public class Application {
 			przewi.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 			panel.add(ety1);
 			panel.add(przewi);
-			panel.add(new JLabel("Szczegó³y produktu:",JLabel.CENTER));
+			panel.add(new JLabel("SzczegÃ³Â³y produktu:",JLabel.CENTER));
 			panel.add(area);
 			panel.add(ety4);
 			ety1.setAlignmentX(panel.CENTER_ALIGNMENT);
